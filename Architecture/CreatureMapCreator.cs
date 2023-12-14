@@ -52,6 +52,7 @@ public static class CreatureMapCreator
 			'G' => CreateCreatureByTypeName("Gold"),
 			'S' => CreateCreatureByTypeName("Sack"),
 			'M' => CreateCreatureByTypeName("Monster"),
+			'W' => CreateCreatureByTypeName("Monster"),
 			' ' => null,
 			_ => throw new Exception($"wrong character for ICreature {c}")
 		};
